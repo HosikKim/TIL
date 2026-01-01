@@ -3,6 +3,9 @@
 실제로 사용해보거나 유용해 보이는 MCP 서버들을 모아둔 문서입니다.
 
 ---
+**목차**
+- [Context7](#context7)
+- [GitHub MCP Server](#github-mcp-server)
 
 ## Context7
 
@@ -20,3 +23,24 @@
 **링크**:
 - [Context7 공식 사이트](https://context7.com/)
 - [GitHub](https://github.com/upstash/context7)
+
+
+## GitHub MCP Server
+
+**기능**: GitHub 리포지토리 관리 및 작업 자동화
+
+**주요 기능**:
+- 리포지토리 생성, 삭제, 조회
+- Issue 및 Pull Request 관리
+- 파일 읽기/쓰기 및 커밋 작업
+- Branch 생성 및 관리
+- Repository 검색 및 포크
+
+**유용한 점**:
+- Claude와 대화하면서 바로 GitHub 작업 수행 가능
+- 반복적인 GitHub 작업 자동화
+- 코드 리뷰나 이슈 관리를 대화형으로 처리
+
+**링크**:
+- [GitHub - modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/github)
+- [MCP 공식 문서](https://modelcontextprotocol.io/)
