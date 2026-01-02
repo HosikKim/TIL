@@ -6,6 +6,7 @@
 **목차**
 - [Context7](#context7)
 - [GitHub MCP Server](#github-mcp-server)
+- [Notion MCP Server](#notion-mcp-server)
 
 ## Context7
 
@@ -44,3 +45,24 @@
 **링크**:
 - [GitHub - modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/github)
 - [MCP 공식 문서](https://modelcontextprotocol.io/)
+
+## Notion MCP Server
+
+**기능**: Notion 워크스페이스 관리 및 콘텐츠 작업 자동화
+
+**주요 기능**:
+- 페이지 생성, 읽기, 업데이트, 삭제
+- 데이터베이스 조회 및 항목 관리
+- 블록 콘텐츠 추가 및 수정
+- 페이지 검색 및 필터링
+- 페이지 속성 관리
+
+**유용한 점**:
+- Claude와 대화하면서 Notion 문서 자동 생성
+- 회의록, 보고서 등 반복적인 문서 작성 자동화
+- 데이터베이스 항목 일괄 관리 및 업데이트
+- 문서 구조화 및 정리 작업 간소화
+
+**링크**:
+- [GitHub - makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server)
+- [Notion API 문서](https://developers.notion.com/)
