@@ -126,9 +126,11 @@ while (!queue.isEmpty()) {
 ```
 
 ## 참고 자료
-* 백준 BFS 기본 문제: 1260
+* 백준 BFS 기본 문제: 1260 , 2178, 7569
+
 
 ```java
+// 백준 1260 DFS와 BFS
 import java.util.*;
 import java.io.*;
 
