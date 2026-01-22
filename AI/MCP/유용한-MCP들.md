@@ -7,6 +7,7 @@
 - [Context7](#context7)
 - [GitHub MCP Server](#github-mcp-server)
 - [Notion MCP Server](#notion-mcp-server)
+- [Figma MCP Server](#figma-mcp-server)
 
 ## Context7
 
@@ -46,6 +47,7 @@
 - [GitHub - modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/github)
 - [MCP 공식 문서](https://modelcontextprotocol.io/)
 
+
 ## Notion MCP Server
 
 **기능**: Notion 워크스페이스 관리 및 콘텐츠 작업 자동화
@@ -66,3 +68,33 @@
 **링크**:
 - [GitHub - makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server)
 - [Notion API 문서](https://developers.notion.com/)
+
+
+## Figma MCP Server
+
+**기능**: Figma 디자인을 코드로 변환하고 디자인 컨텍스트 추출
+
+**주요 기능**:
+- 선택한 프레임에서 코드 자동 생성
+- 디자인 시스템 변수, 컴포넌트, 레이아웃 데이터 추출
+- FigJam 다이어그램 콘텐츠 가져오기
+- Make 파일에서 코드 리소스 수집
+- Code Connect를 통한 디자인 시스템 컴포넌트 일관성 유지
+
+**유용한 점**:
+- 디자인을 직접 코드로 변환하여 개발 시간 단축
+- AI 에이전트에게 정확한 디자인 컨텍스트 제공
+- 디자인 시스템과 코드베이스 간 일관성 유지
+- 프로토타입에서 프로덕션으로의 빠른 전환
+- FigJam 아이디어를 바로 개발에 통합
+
+**설정 방법**:
+- **데스크톱 서버**: Figma 데스크톱 앱에서 Dev Mode → MCP 서버 활성화
+- **원격 서버**: `https://mcp.figma.com/mcp` 엔드포인트 직접 연결
+
+**지원 편집기**: VS Code, Cursor, Windsurf, Claude Code, Android Studio 등
+
+**링크**:
+- [Figma MCP 공식 가이드](https://help.figma.com/hc/ko/articles/32132100833559)
+- [Figma MCP 개발자 문서](https://developers.figma.com/docs/figma-mcp-server)
+- [MCP 카탈로그](https://www.figma.com/mcp-catalog)
